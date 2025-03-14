@@ -9,7 +9,7 @@ def post_spark_job(user, repo, job, token):
     payload = {
       "event_type": job
     }
- 
+  
     headers = {
       'Authorization': 'Bearer ' + token,
       'Accept': 'application/vnd.github.v3+json',
